@@ -15,6 +15,7 @@ body{
 
 #btn-add{
     margin-left:10px;
+    margin-bottom:10px;
     padding: 10px;
     width: 25%;
     background: #ffe550;
@@ -33,6 +34,7 @@ body{
 }
 
 #btn-remove{
+    margin-left: 10px;
     margin-top:10px;
     padding: 10px;
     width: 25%;
@@ -61,13 +63,14 @@ li{
     font-family: 'Quicksand';
 }
 
-@media screen and (max-width: 999px) {
+/* max-width: 999px */
+@media screen and (max-width: 1000px) {
     #input{
         margin: 0;
         border: none;
         border-radius: 0;
         width: 70%;
-        height:10%;
+        height:7%;
         padding: 10px;
         float: left;
         font-size: 50px;
@@ -79,7 +82,7 @@ li{
         padding: 12px 8px 12px 40px;
         margin: 2% 4% 1% 0;
         background: #eee;
-        font-size: 50px;
+        font-size: 3rem;
         width:95%;
         font-family: 'Quicksand';
         
@@ -88,11 +91,11 @@ li{
         margin-left:10px;
         padding: 10px;
         width: 25%;
-        height:10%;
+        height:7%;
         background: #ffe550;
         color: #555;
         text-align: center;
-        font-size: 50px;
+        font-size: 2rem;
         cursor: pointer;
         transition: 0.3s;
         border-radius: 0;
@@ -102,13 +105,77 @@ li{
     }
     #btn-remove{
         margin-top:10px;
+        margin-left:10px;
         padding: 10px;
         width: 25%;
-        height:10%;
+        height:7%;
         background: #ffe550;
         color: #555;
         text-align: center;
+        font-size: 2rem;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 0;
+        border:0;
+        font-family: 'Quicksand';
+        float: right;
+        margin-right:4%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+
+    body{
+        background-color: red;
+    }
+    #input{
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        width: 70%;
+        height:7%;
+        padding: 10px;
+        float: left;
         font-size: 50px;
+        background-color: #eee;
+        font-family: 'Quicksand';
+    }
+    li{
+        list-style-type: none;
+        padding: 12px 8px 12px 40px;
+        margin: 2% 4% 1% 0;
+        background: #eee;
+        font-size: 3rem;
+        width:95%;
+        font-family: 'Quicksand';
+        
+    }
+    #btn-add{
+        margin-left:10px;
+        padding: 10px;
+        width: 25%;
+        height:7%;
+        background: #ffe550;
+        color: #555;
+        text-align: center;
+        font-size: 2rem;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 0;
+        border:0;
+        font-family: 'Quicksand';
+        
+    }
+    #btn-remove{
+        margin-top:10px;
+        margin-left:10px;
+        padding: 10px;
+        width: 25%;
+        height:7%;
+        background: #ffe550;
+        color: #555;
+        text-align: center;
+        font-size: 2rem;
         cursor: pointer;
         transition: 0.3s;
         border-radius: 0;
