@@ -133,19 +133,19 @@ li{
         border: none;
         border-radius: 0;
         width: 70%;
-        height:7%;
+        height:15%;
         padding: 10px;
         float: left;
-        font-size: 50px;
+        font-size: 1.3rem;
         background-color: #eee;
         font-family: 'Quicksand';
     }
     li{
         list-style-type: none;
-        padding: 12px 8px 12px 40px;
+        padding: 12px 8px 12px 10px;
         margin: 2% 4% 1% 0;
         background: #eee;
-        font-size: 3rem;
+        font-size: 1.3rem;
         width:95%;
         font-family: 'Quicksand';
         
@@ -154,11 +154,11 @@ li{
         margin-left:10px;
         padding: 10px;
         width: 25%;
-        height:7%;
+        height:15%;
         background: #ffe550;
         color: #555;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.3rem;
         cursor: pointer;
         transition: 0.3s;
         border-radius: 0;
@@ -171,11 +171,11 @@ li{
         margin-left:10px;
         padding: 10px;
         width: 25%;
-        height:7%;
+        height:20%;
         background: #ffe550;
         color: #555;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1rem;
         cursor: pointer;
         transition: 0.3s;
         border-radius: 0;
